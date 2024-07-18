@@ -1,0 +1,209 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+
+/* Styles pour le menu de navigation horizontal */
+.horizontal-menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.horizontal-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-menu li {
+    float: left;
+}
+
+.horizontal-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.horizontal-menu li a:hover {
+    background-color: #c3d7d7;
+    border-radius: 20px;
+    width: 150px;
+    transition: 0.5;
+    color: rgb(14, 14, 49);
+    font-weight: bolder;
+}
+
+/* Styles pour le menu en forme de tiroir de navigation */
+.drawer-menu {
+    display: none;
+    background-color: #6e0f0f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.drawer-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.drawer-menu li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.drawer-menu li a:hover {
+    background-color: #555;
+   
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/match1.jpeg');
+    background-repeat: no-repeat;
+}
+
+/* Autres styles spécifiques à votre contenu */
+/* ... */
+
+
+main{
+    background-color: white;
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+#foot1{
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+#event-box {
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    top: 630px;
+    left: 350px;
+    opacity: 0.7;
+    padding: 20px;
+}
+
+.event-details {
+    height: 600px;
+    width: 80%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.event-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.event-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#user{
+    background-color: skyblue;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    border-radius: 100px 0 100px 0 ;
+    right: 20px;
+    font-weight: bolder;
+    opacity: 0.7;
+    z-index: 5;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: 0.7;
+
+}
+
+
+
+form {
+    background-color: white;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 30px;
+    border: 2 double white;
+    font-size: 20px;
+}
+input {
+    padding: 10px;
+    width: 92%;
+}
+
+h1 {
+    width: 100%;
+    background-color: while;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Style pour le tableau des catégories */
+#catego-box {
+    margin-top: -20px;
+}
+
+
+
+
+
